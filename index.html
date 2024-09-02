@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRUTON Technologies</title>
+    <link rel="icon" href="Img/company-bg remove.png"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Img/company-bg remove.png"/>
+            </div>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="nav-links">
+                <li class="hideOnMobile"><a href="#home">Home</a></li>
+                <li class="hideOnMobile"><a href="#about">About Us</a></li>
+                <li class="hideOnMobile"><a href="#services">Services</a></li>
+                <li class="hideOnMobile"><a href="#team">Team</a></li>
+                <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+                <li class="menu" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+        </script>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            
+            <h1>Welcome to BRUTON Technologies</h1>
+            <p>Redefining Excellence in Software Development and Innovation</p>
+            <a href="#services" class="cta">Learn More</a>
+            <a href="#contact" class="cta">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="img-container">
+            <div class="img"></div>
+          </div>
+          <div class="section-content">
+            <div class="title-style">
+              <span class="line"></span>
+              <h2 class="title">About Us</h2>
+            </div>
+            <p>Technologies, we pride ourselves on being a trailblazer in the world of software development and digital transformation. Founded with the vision to empower businesses and individuals alike, our mission is to deliver intelligent, scalable, and user-centric technology solutions that help dients thrive in the fast-paced digital age. <br><br>We specialize in designing, developing, and deploying a wide range of custom software
+            solutions that cater to the diverse needs of businesses, startups, and enterprises. Our expertise spans across a broad spectrum of industries, helping us to deliver tailored solutions that provide high value and measurable results.</p>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+        <div class="service-item">
+            <img src="img/Customer Software.jpg" alt="Custom Software Development">
+            <div class="service-description">
+                <h3>Custom Software Development</h3>
+                <p>We carft bespoke software tailored to meet the unique challenges and needs of your business, ensuring ....</p>
+                <a href="service-details.html#custom-software-development" class="read-more-btn">Read More</a>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="Img/Web and Mobile.png" alt="Web & Mobile Development">
+            <div class="service-description">
+                <h3>Web & Mobile Development</h3>
+                <p>From respective website to feature-rich mobile app, we develop digital experiences that engage users ....</p>
+                <a href="service-details.html#web-mobile-development" class="read-more-btn">Read More</a>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="Img/Enterprise solution.jpg" alt="Enterprise Solutions">
+            <div class="service-description">
+                <h3>Enterprise Solutions</h3>
+                <p>We deliver enterprise-level solutions for automation, productivity enhancement, and seamless operations management....</p>
+                <a href="service-details.html#enterprise-solutions" class="read-more-btn">Read More</a>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="Img/Cloud Solution.jpg" alt="Cloud Solutions & DevOps">
+            <div class="service-description">
+                <h3>Cloud Solutions & DevOps</h3>
+                <p>Our cloud computing services enable businesses to leverage scalable, secure, and cost-effective infrastructure, while our DevOps ....</p>
+                <a href="service-details.html#cloud-devops" class="read-more-btn">Read More</a>
+
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="Img/Cyber Security.jpg" alt="Cybersecurity Services">
+            <div class="service-description">
+                <h3>Cybersecurity Services</h3>
+                <p>Protecting your digital assets is our priority. We provide end-to-end cybersecurity solutions to safeguard data and ensure compliance....</p>
+                <a href="service-details.html#cybersecurity-services" class="read-more-btn">Read More</a>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="Img/IT Consulting.jpg" alt="IT Consulting">
+            <div class="service-description">
+                <h3>IT Consulting</h3>
+                <p>We help businesses make informed technology decisions by providing strategic IT consulting and support to enhance overall performance and growth....</p>
+                <a href="service-details.html#it-consulting" class="read-more-btn">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Approach -->
+<section class="our-approach">
+    <div class="content-section">
+      <div class="title-style">
+        <h2 class="title-two">
+          Our<br />
+          Approach
+        </h2>
+      </div>
+      <p>At BRUTON Technologies, our approach is client-centric and results-driven We believe in building long-term relationships with our dients through continuous co transparency, and excellence in service delivery. By employing industry
+         best practices and staying ahead of technology trends, we ensure that our solutions not only meet current needs but also adapt to future growth.</p>      
+    </div>
+
+    <div class="img-container">
+      <img src="Img/approach.jpg" class="topp" alt="zoom" />
+    </div>
+  </section>
+
+  <!-- Internship-->
+<section id="internship">
+    <div class="img-container1">
+        <div class="img" ><img src="Img/Internship.jpg" alt=""></div>
+      </div>
+
+      <div class="section-conten1">
+        <div class="title-style">
+          <span class="line"></span>
+          <h2 class="title">Our<br>Internship</h2>
+        </div>
+        <p>We be in fostering future tech talent through hands-on learning Our internship programs focus on real world problem solving, innovative project work, and professional development. Interns at BRUTON gain valuable experience working on live projects and aro montored by industry exports in fields like software development, cybersecurity. and cloud computing, We strive to provide an environment where creativity leaming, and collaboration flourish, preparing our interns to excel in their careers.
+        </p>
+    </div>
+</section>
+
+<!-- Our Values Section -->
+<section id="our-values">
+    <div class="content-container">
+        <h2>Our Values</h2>
+        <ul>
+            <li><strong>Innovation:</strong> Constantly pushing boundaries and embracing new technologies to provide state-of-the-art solutions.</li>
+            <li><strong>Quality:</strong> Delivering exceptional work that meets the highest standards of excellence.</li>
+            <li><strong>Collaboration:</strong> Working closely with clients and team members to achieve outstanding results.</li>
+            <li><strong>Integrity:</strong> Upholding honesty, transparency, and trust in all aspects of our work.</li>
+            <li><strong>Growth:</strong> Encouraging continuous learning and development for both our team and clients.</li>
+        </ul>
+    </div>
+</section>
+
+    <!-- Team Section -->
+<section id="team">
+    <h2>Meet the Team</h2>
+    <div class="team-container">
+        <div class="team-member">
+            <img src="Img/lead developer.jpg" alt="">
+            <p>Lead Developer</p>
+        </div>
+        <div class="team-member">
+            <img src="Img/project manager.jpg" alt="">
+            <p>Project Manager</p>
+        </div>
+        <div class="team-member">
+            <img src="Img/ui ux.jpg" alt="">
+            <p>UI/UX Designer</p>
+        </div>
+        <!-- Add more team members as needed -->
+    </div>
+</section>
+
+    <!-- Join Us Section -->
+    <section id="join-us">
+        <div class="content-container">
+            <h2>Join Us</h2>
+            <p>
+                Whether you are a business seeking cutting-edge technology solutions, or a tech professional looking for an exciting opportunity to grow, BRUTON Technologies is the place for you. Our dynamic and inclusive environment fosters creativity, innovation, and professional growth, making us a trusted partner in the digital transformation journey.
+            </p>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 BRUTON Technologies. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
